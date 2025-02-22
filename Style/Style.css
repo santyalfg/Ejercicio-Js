@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF;
+    padding: 15px 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Estilos de los enlaces de navegación */
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: white;
+    color: #007BFF;
+    border-radius: 5px;
+}
+
+/* Estilos para hacer la barra responsiva */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+}
+
+/* Estilos del contenido principal */
+.Contenido {
+    text-align: center;     
+    padding: 50px;
+}
+
+h2{
+    color: #007BFF;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+label{
+    display: block;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 30px;
+    background-color: #007BFF; /* Color pastel */
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 50px; /* Botón redondeado */
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+button:hover {
+    background-color: #fbfdff; /* Color un poco más intenso */
+    transform: translateY(-4px); /* Efecto de elevación */
+    color: #007BFF;
+}
+
+button:active {
+    transform: translateY(2px); /* Efecto al presionar */
+}
