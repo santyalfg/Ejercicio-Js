@@ -63,7 +63,42 @@ body {
 }
 
 /* Estilos del contenido principal */
-.contenido {
-    text-align: center;
+.Contenido {
+    text-align: center;     
     padding: 50px;
+}
+
+h2{
+    color: #007BFF;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+label{
+    display: block;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 30px;
+    background-color: #007BFF; /* Color pastel */
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 50px; /* Botón redondeado */
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+button:hover {
+    background-color: #fbfdff; /* Color un poco más intenso */
+    transform: translateY(-4px); /* Efecto de elevación */
+    color: #007BFF;
+}
+
+button:active {
+    transform: translateY(2px); /* Efecto al presionar */
 }
